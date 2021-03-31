@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remshams/animatecss.git"
+    "url": "git+https://github.com/remshams/animatecss-helpers.git"
   },
   "keywords": [
     "node"
@@ -34,9 +34,9 @@
   "author": "Quentin Pré",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qpre/animatecss/issues"
+    "url": "https://github.com/qpre/animatecss-helpers/issues"
   },
-  "homepage": "https://github.com/remshams/animatecss#readme",
+  "homepage": "https://github.com/remshams/animatecss-helpers#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
