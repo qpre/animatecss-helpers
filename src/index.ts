@@ -24,4 +24,4 @@
 
  export { zoom_out_forward } from './animations/zoom_out_forward'
 
-export { prepare_nodes_for_transition } from './prepare_nodes_for_transition'
+export { prepare_nodes_for_transition } from './utilities/prepare_nodes_for_transition'
