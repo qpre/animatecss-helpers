@@ -7,5 +7,5 @@ export function fade_in_left({
   ease,
   stagger = 0,
 }) {
-  return apply_animation({ animation_class: 'animate__fadeInLft', nodes, delay, duration, stagger });
+  return apply_animation({ animation_class: 'animate__fadeInLeft', nodes, delay, duration, stagger });
 }
