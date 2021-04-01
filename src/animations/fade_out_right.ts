@@ -1,16 +1,11 @@
+import { apply_animation } from "../utilities/apply_animation";
+
 export function fade_out_right({
-  timeline,
   delay,
   nodes,
   duration = 0.3,
   ease,
   stagger = 0,
 }) {
-  nodes.forEach((el) => {
-    el?.classList?.add('animate__faster');
-    el?.classList?.add('animate__animated');
-    el?.classList?.add('animate__fadeOutRight');
-  });
+  return apply_animation({ animation_class: 'animate__fadeOutRight', nodes, delay, duration, stagger });
 }
-
-export default fade_out_right;

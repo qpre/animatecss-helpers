@@ -1,16 +1,13 @@
+import { apply_animation } from "../utilities/apply_animation";
+
 export function slide_out_up({
-  timeline,
   delay,
   nodes,
   duration = 0.3,
   ease,
   stagger = 0,
 }) {
-  nodes.forEach((el) => {
-    el?.classList?.add('animate__faster');
-    el?.classList?.add('animate__animated');
-    el?.classList?.add('animate__slideOutUp');
-  });
+  return apply_animation({ animation_class: 'animate__slideOutUp', nodes, delay, duration, stagger });
 }
 
 export default slide_out_up;

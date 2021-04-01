@@ -1,10 +1,6 @@
-export function fade_out({ timeline, delay, nodes, duration }) {
-  nodes.forEach((el) => {
-    el?.classList?.add('animate__faster');
-    el?.classList?.add('animate__animated');
-    el?.classList?.remove('animate__fadeIn');
-    el?.classList?.add('animate__fadeOut');
-  });
+import { apply_animation } from "../utilities/apply_animation";
+
+export function fade_out({ delay, nodes, duration, stagger }) {
+  return apply_animation({ animation_class: 'animate__fadeOut', nodes, delay, duration, stagger });
 }
 
-export default fade_out;

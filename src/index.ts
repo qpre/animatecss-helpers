@@ -25,3 +25,4 @@
  export { zoom_out_forward } from './animations/zoom_out_forward'
 
 export { prepare_nodes_for_transition } from './utilities/prepare_nodes_for_transition'
+export { apply_animation } from './utilities/apply_animation'
