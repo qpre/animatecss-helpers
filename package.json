@@ -1,6 +1,6 @@
 {
   "name": "animatecss-helpers",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "javascript helper functions to apply (animate.css)[https://animate.style] classes",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
